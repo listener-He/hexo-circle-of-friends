@@ -12,8 +12,8 @@ env:
   CARGO_TERM_COLOR: always
   # 在这里查看需要添加的secert
   # 通用配置
-  SIMPLE_MODE: false # 极简模式是否开启，默认false
-  DATABASE: sqlite # 默认使用sqlite
+  SIMPLE_MODE: true # 极简模式是否开启，默认false
+  DATABASE: mysql # 默认使用sqlite
   PROXY: ${{ secrets.PROXY }} # 可选，http代理
   # mysql、sqlite、mongodb配置三选一即可
   # mysql配置
